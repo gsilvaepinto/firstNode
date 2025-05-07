@@ -1,5 +1,5 @@
 const fs = require('node:fs/promises');
-const fileName = process.argv[] || 'Project';
+const fileName = process.argv[4] || 'Project';
 
 async function createFile() {
 	try {
